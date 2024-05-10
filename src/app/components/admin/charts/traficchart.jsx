@@ -6,21 +6,21 @@ const Traficchart = () => {
           <div className='w-[25%]'>
           <p>3578</p>
           </div>  
-          <p>Research Papers</p>
+          <p>Courses</p>
         </div>
         <div className='flex w-[100%] '>
           <div className='w-[25%]'>
 
           <p>2035</p>
           </div>
-          <p>Conference Papers</p>
+          <p>Softwares</p>
         </div>
         <div className='flex w-[100%] '>
           <div className='w-[25%]'>
 
           <p>8247</p>
           </div>
-          <p>Book Chapters</p>
+          <p>Graphic Designing</p>
 
         </div>
         <div className='flex w-[100%] '>
@@ -28,7 +28,7 @@ const Traficchart = () => {
 
           <p>1998</p>
           </div>
-          <p>Funded Projects</p>
+          <p>Web Development</p>
         </div>
         <div className='flex w-[100%] '>
           <div className='w-[25%]'>

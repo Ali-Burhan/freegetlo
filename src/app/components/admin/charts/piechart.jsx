@@ -2,15 +2,15 @@ import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 const Piechart = () => {
     const data = [
         {
-          name: "Males",
+          name: "Courses",
           value: 200000,
         },
         {
-          name: "Females",
+          name: "Softwares",
           value: 69400,
         },
         {
-          name: "Children",
+          name: "Graphic Designing",
           value: 29078,
         },
         {

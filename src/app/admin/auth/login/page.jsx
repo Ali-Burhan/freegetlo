@@ -53,8 +53,7 @@ const Adminlogin = () => {
             <div className='flex flex-col justify-between'>
                 <div className='mt-3 flex items-center '>
                     <Image src={'/Logo.svg'} width={50} height={50} alt="Logo" />  
-                    <h1 className='ml-3 text-2xl font-bold text-[var(--secondary-color)]'>Publication Management 
-System</h1>
+                    <h1 className='ml-3 text-2xl font-bold text-[var(--secondary-color)]'>FreeGetLo </h1>
                 </div>
                 <div className='lg:ml-14'>
                     <p className='text-xl font-bold'>Admin Login</p>

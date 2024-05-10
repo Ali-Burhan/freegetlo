@@ -3,38 +3,38 @@ const Linechart = () => {
     const data = [
         {
           "year": "2016",
-          "I.F": 4000,
-          "N.I.F": 2400
+          "Download": 4000,
+          "Visiter": 2400
         },
         {
           "year": "2017",
-          "I.F": 3000,
-          "N.I.F": 1398
+          "Download": 3000,
+          "Visiter": 1398
         },
         {
           "year": "2018",
-          "I.F": 2000,
-          "N.I.F": 9800
+          "Download": 2000,
+          "Visiter": 9800
         },
         {
           "year": "2019",
-          "I.F": 2780,
-          "N.I.F": 3908
+          "Download": 2780,
+          "Visiter": 3908
         },
         {
           "year": "2020",
-          "I.F": 1890,
-          "N.I.F": 4800
+          "Download": 1890,
+          "Visiter": 4800
         },
         {
           "year": "2021",
-          "I.F": 2390,
-          "N.I.F": 3800
+          "Download": 2390,
+          "Visiter": 3800
         },
         {
           "year": "2022",
-          "I.F": 3490,
-          "N.I.F": 4300
+          "Download": 3490,
+          "Visiter": 4300
         }
       ]
   return (
@@ -55,8 +55,8 @@ const Linechart = () => {
       <XAxis dataKey="year" />
       <YAxis />
       <Tooltip />
-      <Area type="monotone" dataKey="I.F" stroke="#42B2BC" fillOpacity={1} fill="url(#colorUv)" />
-      <Area type="monotone" dataKey="N.I.F" stroke="#1E5156" fillOpacity={1} fill="url(#colorPv)" />
+      <Area type="monotone" dataKey="Download" stroke="#42B2BC" fillOpacity={1} fill="url(#colorUv)" />
+      <Area type="monotone" dataKey="Visiter" stroke="#1E5156" fillOpacity={1} fill="url(#colorPv)" />
     </AreaChart>
   </ResponsiveContainer>
     </div>

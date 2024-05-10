@@ -105,7 +105,7 @@ const Sidebar = ({ children }) => {
     <div className="md:hidden sm:block block h-[100vh] bg-[var(--primary-color)] p-10 ">
       <div className="flex flex-col justify-between text-center h-full items-center text-3xl  text-white rounded p-5">
         <h1 className="text-3xl text-center font-bold text-white">
-        Publication Managment System
+        Resource Managment System
         </h1>
       <Image src={'/Logo.svg'} height={120} width={120}/>
 <h1 className="border-b-2 border-red-500 border-t-2">
@@ -135,7 +135,7 @@ Please Open this on Desktop or Laptop
             height={40}
             src={'/Logo.svg'}
             />
-            <p className="font-bold text-xl text-white">{ !toggleside && 'Publication'}</p>
+            <p className="font-bold text-xl text-white">{ !toggleside && 'FreeGetLo'}</p>
           </div>
           <hr className=" mb-5 opacity-15"/>
           {

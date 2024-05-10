@@ -12,5 +12,5 @@ export async function middleware(request) {
  
 // See "Matching Paths" below to learn more
 export const config = {
-  matcher: ['/','/admin/dashboard/','/admin/dashboard/admins','/admin/dashboard/departments','/admin/dashboard/faculty','/admin/dashboard/publications']
+  matcher: ['/','/admin/dashboard/','/admin/dashboard/admins','/admin/dashboard/softwares','/admin/dashboard/faculty','/admin/dashboard/publications']
 }
